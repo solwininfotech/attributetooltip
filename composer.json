@@ -1,0 +1,22 @@
+{
+    "name": "solwin/attributetooltip",
+    "description": "This extension allows you to display attribute tooltip with image and image for an attribute from back-end.",
+    "type": "magento2-module",
+    "version": "1.0.7",
+    "authors": [
+        {
+            "name": "Solwin",
+            "email": "stdabhoya@yahoo.com",
+            "homepage": "https://www.solwininfotech.com/",
+            "role": "Developer"
+        }
+    ],
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Solwin\\AttributeTooltip\\": ""
+        }
+    }
+}
